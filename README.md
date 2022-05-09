@@ -1,3 +1,7 @@
+# My Notes
+`pip install tensorflow-gpu==1.15`
+
+
 # Attentive History Selection for Conversational Question Answering
 
 This is the implementation for the "HAM" model proposed in the CIKM'19 paper [Attentive History Selection for Conversational Question Answering](https://arxiv.org/abs/1908.09456). This model first incorporates history turns with positional history answer embedding (PosHAE) with a [BERT](https://github.com/google-research/bert) based model, and then conducts soft selection of history by attending to the history turns.
